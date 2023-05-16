@@ -1,0 +1,11 @@
+{
+	"name": "webgpu",
+	"classPath": "src",
+	"url" : "https://github.com/gogoprog/haxe-webgpu/",
+	"license": "MIT",
+	"tags": ["js", "webgpu"],
+	"description": "Externs for WebGPU",
+	"version": "0.0.1",
+	"releasenote": "",
+	"contributors": ["gogoprog"]
+}

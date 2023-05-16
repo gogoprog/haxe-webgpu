@@ -1,0 +1,4 @@
+-cp src
+-cp test
+-js test/build/demo.js
+-main Demo
