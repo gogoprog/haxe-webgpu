@@ -15,9 +15,15 @@ private typedef ShaderModuleDescriptor = {
     var code:String;
 };
 
+private typedef BufferDescriptor = {
+    var size:Int;
+    var usage:Int;
+};
+
 extern class GpuDevice {
     public function createCommandEncoder():GpuCommandEncoder;
     public function createRenderPipeline(descriptor:RenderPipelineDescriptor):GpuRenderPipeline;
     public function createShaderModule(descriptor:ShaderModuleDescriptor):GpuShaderModule;
+    public function createBuffer(descriptor:BufferDescriptor):GpuBuffer;
     public var queue:GpuQueue;
 }
